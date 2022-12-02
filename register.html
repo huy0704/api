@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>Register</title>
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/login.css" />
+
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="./js/login.js"></script>
+</head>
+
+<body>
+  <div class="signup">
+    <h1 class="signup-heading">Register</h1>
+    <button class="signup-social">
+      <i class="fa fa-google signup-social-icon"></i>
+      <span class="signup-social-text">Register with Google</span>
+    </button>
+    <div class="signup-or"><span>Or</span></div>
+
+    <div class="email-group">
+      <label for="fullname" class="signup-label">Email</label>
+      <input type="text" id="email" class="signup-input" >
+    </div>
+
+    <div class="password-group">
+      <label for="password" class="signup-label">Password</label>
+      <input type="password" id="password" class="signup-input" >
+    </div>
+    
+    <a href="login.html" style="text-decoration: none; color: white;"><button class="signup-submit" onclick="doRegister()">Register</button></a>
+    <p class="signup-already">
+      <span>Already have an account ?</span>
+      <a href="login.html" class="signup-login-link">Login</a>
+    </p>
+  </div>
+</body>
+
+</html>
